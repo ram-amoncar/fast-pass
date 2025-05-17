@@ -1,6 +1,6 @@
 [project]
 name = "fast-password"
-version = "1.0.0"
+version = "1.0.1"
 description = "Generate secure password fast"
 readme = "README.md"
 requires-python = ">=3.10"
