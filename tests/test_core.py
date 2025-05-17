@@ -2,7 +2,7 @@ from string import ascii_lowercase, punctuation
 
 import pytest
 
-from fast_pass.core import generate
+from fast_password.core import generate
 
 
 def test_generate_length():

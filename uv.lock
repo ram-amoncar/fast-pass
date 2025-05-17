@@ -36,7 +36,7 @@ wheels = [
 ]
 
 [[package]]
-name = "fast-pass"
+name = "fast-password"
 version = "1.0.0"
 source = { editable = "." }
 dependencies = [

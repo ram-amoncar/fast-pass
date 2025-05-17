@@ -8,7 +8,7 @@ license = { file = "LICENSE" }
 dependencies = ["click>=8.2.0"]
 
 [project.scripts]
-fp = "fast_pass.cli:main"
+fp = "fast_password.cli:main"
 
 [build-system]
 requires = ["hatchling"]
