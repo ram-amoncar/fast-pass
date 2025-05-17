@@ -1,11 +1,23 @@
-# Fast-Pass
+# Fast-Password
 
-Fast-Pass is a CLI tool and Python library for generating secure, random passwords quickly.
+Fast-Password is a CLI tool and Python library for generating secure, random passwords quickly.
 
 ## Installation
 
+Using `pip`
+
 ```bash
-pip install fast-pass
+pip install fast-password
+```
+
+Using `uv`
+
+```bash
+uv tool install fast-password
+```
+
+```bash
+uvx --from fast-password fp [OPTIONS] 
 ```
 
 ## CLI Usage
@@ -13,7 +25,7 @@ pip install fast-pass
 Generate passwords using the `fp` command:
 
 ```bash
-fp generate [OPTIONS]
+fp [OPTIONS]
 ```
 
 ### Options
@@ -34,10 +46,10 @@ bn6s`c|5*L;8
 
 ## Library Usage
 
-Use Fast-Pass as a library to generate passwords programmatically:
+Use Fast-Password as a library to generate passwords programmatically:
 
 ```python
-from fast_pass import generate
+from fast_password import generate
 
 password = generate(length=12, upper=True, nums=True, special=True, exclude="abc")
 print(password)
